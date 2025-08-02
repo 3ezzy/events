@@ -225,24 +225,3 @@ PSK Services (Psycotik Crew) is a professional event management company speciali
 For more information, visit our website or contact us through the booking system.
 
 ---
-
-**Built with ❤️ by the PSK Services team**
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
